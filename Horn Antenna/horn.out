@@ -1,0 +1,183 @@
+Altair Feko - Solver (par) Version 2019.1-338 from 2019-06-07
+          Altair Feko - PREFEKO Version 2019.1-48 from 2019-03-29 [FEK: default 166; used 166] BINARY
+          CADFEKO version 2019.1-353059 (x64) from 2019-06-20
+          Copyright (c) 1999-2014 Altair Development S.A. (Pty) Ltd
+          Copyright (c) 2014-2019 Altair Engineering, Inc.
+          Intel(R) MKL version 2018.0.4 (build 20180808) on Intel(R) Advanced Vector Extensions 2 (Intel(R) AVX2) enabled processors, Intel(R) 64 architecture (1 thread)
+Computer: PC WIN64 EM64T MKL IMPI -- DESKTOP-MM9EROB
+          Microsoft Windows 10 vNEXT  (Build 18363), Version 10.0.18363 x64 (SP 0.0)
+          Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz; GenuineIntel family 6 model 14 stepping 10 brand id 0
+          1 physical CPU with a total of 8 processors found (multi-core CPU with max. 4 cores per physical CPU)
+Threads:  OpenMP threading not used
+Date:     2020-11-23 18:50:06                     
+File:     horn
+Memory:   Unlimited, system allows maximum usage of 3.911 GByte
+          (for parallel runs memory limit is per process)
+          (installed memory 15.838 GByte, thereof free 10.160 GByte)
+MD5 Check:289E827039A63EA0A120B41A74EF82E1
+MD5 Total:8BC5867BFEF4BED5FC486D45DEC65D75
+ Licence:  Altair HyperWorks
+
+Number of parallel processes:     4 on 1 CPUs
+
+Master process    0 on machine: DESKTOP-MM9EROB                using 1 threads
+Server process    1 on machine: DESKTOP-MM9EROB                using 1 threads
+Server process    2 on machine: DESKTOP-MM9EROB                using 1 threads
+Server process    3 on machine: DESKTOP-MM9EROB                using 1 threads
+
+
+Spice Engine:  HyperSpice Version 2018-19795 from 2018-10-19
+
+          Surface of all triangles in m*m:     6.37022E-01
+
+
+                                DATA FOR MEMORY USAGE
+
+ Number of metallic triangles:           11206                                max. triangles:    MAXNDR    =    11206
+ Number of dielectric triangles:             0
+ Number of aperture triangles:               0
+ Number of RL-GO triangles:                  0
+ Number of windscreen triangles:             0
+ Number of FEM surface triangles:            0
+ Number of modal port triangles:             0
+ Number of metallic segments:                0                                max. segments:     MAXNSEG   =        0
+ Number of combined MoM/MTL segments:        0
+ Number of dielectr./magnet. cuboids:        0                                max. cuboids:      MAXNQUA   =        0
+ Number of tetrahedra:                       0                                max. tetrahedra:   MAXNTETRA =        0
+ Number of edges in PO region:               0                                max. edges:        MAXPOKA   =        0
+ Number of wedges in PO region:              0                                max. wedges:       MAXPOKL   =        0
+ Number of Fock regions:                     0                                max. Fock regions: MAXFOGE   =        0
+ Number of polygonal surfaces:               0                                max. surfaces:     MAXPOLYF  =        0
+                                                                              max. corner pts.:  MAXPOLYP  =        0
+ Number of UTD cylinders:                    0
+
+ Number of metallic edges (MoM):         16726  unknown:    16726 (electr.)   max. edges:        MAXNKA    =    16726
+                                           156  unknown:      156 (magnet.)
+ Number of metallic edges (PO):              0  unknown:        0 (electr.)
+                                                unknown:        0 (magnet.)
+ Number of dielectric edges (MoM):           0  unknown:        0 (electr.)
+                                             0                  0 (magnet.)
+ Number of dielectric edges (PO):            0  unknown:        0 (electr.)
+                                                unknown:        0 (magnet.)
+ Number of aperture edges (MoM):             0  unknown:        0 (magnet.) 
+ Number of edges FEM/MoM surface:            0  unknown:        0 (electr.)
+                                             0                  0 (magnet.)
+ Number of nodes between segments:           0  unknown:        0             max. nodes:        MAXNKNO   =        0
+ Number of connection points:                0  unknown:        0             max. conn.:        MAXNV     =        0
+ Number of dielectric cuboids:               0  unknown:        0             max. cuboids:      MAXNQUA   =        0
+ Number of magnetic cuboids:                 0  unknown:        0
+ Number of dielectric faces (VEP):           0  unknown:        0
+ Number of magnetic faces (VEP):             0  unknown:        0
+
+ Number of basis funct. for MoM:         16882  unknown:    16882             max. basisf.       MAXNZEILE =    16882
+ Number of basis funct. for PO:              0  unknown:        0             max. basisf.       MAXNKAPO  =        0
+
+ read from input file:
+PS       0    0    3    1    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+CG      -1    0   -1    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00-1.000E+00-1.000E+00 0.000E+00 0.000E+00
+ read from input file:
+DI       0    0   -1    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 1.000E+03 0.000E+00 0.000E+00
+ read from input file:
+PW       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+WP       0    2    1   -1    0 1.000E+00 0.000E+00-5.885E-02-2.942E-02-2.248E-01 5.885E-02-2.942E-02-2.248E-01
+ read from input file:
+FR      41    0    0    0    0 1.800E+09 0.000E+00 2.200E+09 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+NC       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+OS       1    0    1    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ 
+ 
+      ==============
+      CONFIGURATION: StandardConfiguration1
+      ==============
+
+
+                                   DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   1.66551E-01   1.00000E+03    infinite    Free space
+
+
+
+                         DATA FOR WAVEGUIDE PORTS
+
+ Waveguide port label: Union1.Face5
+ Port type: Rectangular
+ Port dimensions
+   Width:         1.17700E-01 m
+   Height:        5.88300E-02 m
+ Port reference points in m: 
+   Point S1:               x = -5.88500E-02, y = -2.94150E-02, z = -2.24800E-01
+   Point S2:               x =  5.88500E-02, y = -2.94150E-02, z = -2.24800E-01
+ Direction of propagation: x =  0.00000E+00, y =  0.00000E+00, z =  1.00000E+00
+
+
+                         MODE EXPANSION DATA OF A WAVEGUIDE PORT
+
+ Waveguide port label: Union1.Face5
+ Frequency:        1.80000E+09 Hz
+
+  Mode indices     Cutoff freq.   Transverse wave impedance     Propagation factor           Description
+         m   n        in Hz       real part      imag. part     real part      imag. part 
+   TE    1   0     1.27354E+09    5.33093E+02    0.00000E+00    0.00000E+00    2.66600E+01   Propagating
+   TE    2   0     2.54709E+09    0.00000E+00    3.76285E+02    3.77698E+01    0.00000E+00   Evanescent
+   TE    0   1     2.54796E+09    0.00000E+00    3.76030E+02    3.77955E+01    0.00000E+00   Evanescent
+   TE    1   1     2.84851E+09    0.00000E+00    3.07157E+02    4.62702E+01    0.00000E+00   Evanescent
+   TM    1   1     2.84851E+09    0.00000E+00   -4.62062E+02    4.62702E+01    0.00000E+00   Evanescent
+   TE    2   1     3.60274E+09    0.00000E+00    2.17285E+02    6.54083E+01    0.00000E+00   Evanescent
+   TM    2   1     3.60274E+09    0.00000E+00   -6.53178E+02    6.54083E+01    0.00000E+00   Evanescent
+
+
+                    EXCITATION BY IMPRESSED WAVEGUIDE MODE
+
+ Name:                          WaveguideSource1
+ Excitation index:              1
+ Frequency in Hz:               FREQ =    1.80000E+09
+ Wavelength in m:               LAMBDA =  1.66551E-01
+ Impressed mode:                TE 1 0
+ Amplitude in A/m:               1.00000E+00  
+ Phase in degrees:                      0.00
+ Transmitted power in W:         9.20641E-01 
+ Attached to port label:        Union1.Face5
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+               All segments and triangles are perfectly conducting.
+
+ Distributed storage of MoM matrix for parallel version
+
+                    DISTRIBUTED STORAGE OF MATRIX
+
+   Storage scheme: 1
+   Number of rows of the matrix:                       16882
+   Number of columns of the matrix:                    16882
+   Number of rows of the process grid:                     2
+   Number of columns of the process grid:                  2
+   Block size:                                           128
+   Theoretical load in percent:                        99.92 %
+   Number of rows of local matrix (proc. 0):            8448
+   Number of columns of local mat.(proc. 0):            8448
+   Local memory requirement for matrix:             71368704 complex numbers
+   (corresponds to 544.500 MByte)
+
+ Storage using single precision
+
+ Memory requirement for MoM matrix: 16882 rows * 16882 columns = 285001924 complex numbers
+ For the MoM matrix, a memory of 71368704 complex numbers is used (i.e. 544.500 MByte)
+
+     Per process, 546.349 MByte of memory has been allocated dynamically,
+     which corresponds to 2.131 GByte in total for all processes together
+     (peak memory usage of 546.349 MByte per process so far)
+
